@@ -51,6 +51,28 @@
         },
         {
             "type": "java",
+            "name": "Debug (Launch)-BinaryNode<qsj_test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.qsj.tree.BinaryNode",
+            "projectName": "qsj_test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RBTreeTest<qsj_test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.qsj.tree.RBTreeTest",
+            "projectName": "qsj_test",
+            "args": ""
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch)-Application<qsj_test>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
