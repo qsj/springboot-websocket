@@ -1,0 +1,71 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClhLock<qsj_test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.qsj.lock.ClhLock",
+            "projectName": "qsj_test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SimpleSpinLock<qsj_test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.qsj.lock.SimpleSpinLock",
+            "projectName": "qsj_test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TicketLock<qsj_test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.qsj.lock.TicketLock",
+            "projectName": "qsj_test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DpPackage<qsj_test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.qsj.dynamicprogramming.DpPackage",
+            "projectName": "qsj_test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Application<qsj_test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.qsj.Application",
+            "projectName": "qsj_test",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 0
+        }
+    ]
+}
