@@ -2,8 +2,6 @@ package com.qsj.tree;
 
 import java.util.LinkedList;
 
-import ch.qos.logback.core.pattern.parser.Node;
-
 public class BinaryNode{
     private Object data;
     private BinaryNode left;

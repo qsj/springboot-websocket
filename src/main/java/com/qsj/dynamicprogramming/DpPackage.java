@@ -1,7 +1,5 @@
 package com.qsj.dynamicprogramming;
 
-import java.util.Scanner;
-
 /**
  * 01背包问题，M件物品的体积不同，带来的价值不同，在给定最大体积下，找出能带来最大价值的组合
  * 状态转移方程：f(i,j)=max{f(i-1,j-wi)+vi,f(i-1,j)}

@@ -1,7 +1,5 @@
 package com.qsj.tree;
 
-import org.apache.catalina.valves.CrawlerSessionManagerValve;
-
 public class RBTree<T extends Comparable<T>> {
     private RBNode<T> root;
     private static final boolean RED = false;

@@ -14,18 +14,13 @@ public class ClhLock {
     }
 
     /**
-     * 隐式链表最末等待节点
-     */
-    private volatile ClhNode tail = null;
-
-    /**
      * 线程对应CLH节点
      */
     private ThreadLocal<ClhNode> currentThreadNode = new ThreadLocal<>();
     /**
      * 原子更新器
      */
-    private static final AtomicReferenceFieldUpdater UPDATER = AtomicReferenceFieldUpdater.newUpdater(ClhLock.class,
+    private static final AtomicReferenceFieldUpdater<ClhLock,ClhNode> UPDATER = AtomicReferenceFieldUpdater.newUpdater(ClhLock.class,
             ClhNode.class, "tail");
 
     /**
