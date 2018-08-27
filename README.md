@@ -7,3 +7,4 @@
 ## 自旋锁
 ## 秒杀使用jpa乐观锁
 ## netty、 aio、 threadpool、 Future vs promise、 threadLocal vs fastThreadLocal
+## zookeeper loadbalance
